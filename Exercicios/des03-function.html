@@ -1,0 +1,25 @@
+<!-- Função de validar usuário e senha
+ usuário correto: Fernando
+ senha: 1234 -->
+
+
+<script>
+    function validar(usuario, senha) {
+        if (usuario === 'fernando' && senha === '1234') {
+            return true;
+        } else {
+            return false;
+        }
+}
+    let usuario = 'fernando';
+    let senha = '1234';
+    let validacao = validar(usuario, senha);
+
+    if (validacao) {
+        console.log('Acesso concedido');
+    } else {
+        console.log('Acesso NEGADO!');
+    }
+    
+
+</script>
