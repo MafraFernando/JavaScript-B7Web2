@@ -1,0 +1,15 @@
+<p>Função dentro de outra função, neste caso para somar dois números após fazer a raiz quadrada deles</p>
+<script>
+    function addSquares(a, b) {
+        /* function square(x) {
+             return x * x;
+    }*/
+        // Acima é a mesma coisa sem arrow function
+    const square = (x) => x * x; 
+        let sqrA = square(a);
+        let sqrB = square(b);
+        return sqrA + sqrB;
+    }
+
+    console.log(addSquares(2, 3));
+</script>

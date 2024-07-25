@@ -1,0 +1,25 @@
+<script>
+    /* forma normal de fazer function */
+    
+    function sobrenome(sob) {
+        return 'Mafra ' + sob;
+     }
+    
+
+    /* Abaixo são arrow functions da mais simplificada para menos, quando se tem apenas uma variável pode se utilizar sem parênteses */
+
+     const sobrenome = sob => 'Fernando ' + sob;
+
+     const sobrenome = (sob) => 'Fernando ' + sob;
+
+     const sobrenome = (sob) => {
+        return  'Fernando ' +sob;
+      }
+
+    const sobrenome = (sob) => {
+      let nomeCompleto = 'Fernando ' + sob;
+       return nomeCompleto;
+     }
+   
+   console.log(sobrenome('Mafra'));
+</script>
