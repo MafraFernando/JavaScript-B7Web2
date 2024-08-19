@@ -9,8 +9,9 @@ frutas[frutas.length - 1] = 'Kiwi'; //troca o último index sem que precise sabe
 frutas.reverse(); // inverte a ordem dos objetos
 frutas.sort(); //Faz uma ordem alfabética
 
-let bigFruits = frutas.filter((item) => item.length > 4)
+
 console.log(frutas);
+
 
 let cars = [
     {carro: 'Ferrari', ano: 1988},
@@ -34,3 +35,5 @@ let cars = [
 /* cars.sort((a, b) => a.ano - b.ano); */
 
 console.log(cars);
+
+
